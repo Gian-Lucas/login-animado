@@ -63,10 +63,13 @@ label.up2 {
 }
 
 button:hover {
-    background-color: #333;   
+    background-color: #0005;
+    color: #000;
 }
 
 button {
+    font-weight: 600;
+    transition: 0.3s;
     outline: none;
     width: 90%;
     margin-top: 20px;
