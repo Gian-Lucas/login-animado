@@ -84,7 +84,8 @@ button:hover {
     align-items: center;
     flex-direction: column;
 
-    width: fit-content;
+    width: 90vw;
+    max-width: 600px;
     margin: auto;
     margin-top: 25vh;
     padding: 10px;
