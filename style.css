@@ -1,83 +1,96 @@
-@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
-
-body {
-    font-family: 'Kalam', cursive;
-    background-image: linear-gradient(to right, #000, #333, #000, #222);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-h1 {
-    margin-top: 0;
-    margin-bottom: 50px;
+body {
+    background: #eee;
+    font-family: sans-serif;
+}
+
+img {
+    width: 500px;
+    margin-top: -100px;
 }
 
 form {
-    background-image: linear-gradient(to bottom right, #f0f, #0ea, #00f);
-    position: relative;
-    font-size: 14pt;
-    padding: 25px;
-    border-radius: 5%;
-    background-color: white;
-    width: max-content;
-    margin: auto;
-    margin-top: 50px;
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
 }
 
-input {
-    font-family: 'arial';
-    font-size: 14pt;
-    background: transparent;
-    outline: none;
-    margin: 12px 0;
-    padding: 8px;
-    border: none;
-    border-bottom: #000 2px solid;
+form img {
+    width: 25px;
 }
 
-label.lab {
-    cursor: text;
-    transition: 0.5s;
-    position: absolute;
-    left: 30px;
-}
-
-label.l1 {
-    top: 150px;
-}
-
-label.l2 {
-    top: 215px;
-}
-
-label.up1 {
-    top: 130px;
-    font-size: 12pt;
-}
-
-label.up2 {
-    top: 194px;
-    font-size: 12pt;
-}
-
-button:hover {
-    background-color: #0005;
-    color: #000;
+h1 {
+    color: #44009c;
 }
 
 button {
-    font-weight: 600;
-    transition: 0.3s;
-    outline: none;
-    width: 90%;
-    margin-top: 20px;
-    font-size: 16pt;
-    border: none;
-    border-radius: 35px;
-    padding: 10px;
     cursor: pointer;
-    color: #0ea;
-    background-color: #000;
+    transition: 0.3s;
+    border: 0;
+    background: #44009c;
+    color: #fff;
+
+    border-radius: 3px;
+
+    padding: 5px;
+    font-size: 15pt;
+
+    width: 100%;
+    margin: 15px auto; 
 }
+button:hover {
+    background: #5b00d1;
+}
+
+.input-container {
+    font-size: 14pt;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    margin: 20px 0;
+
+}
+
+.input-container .label {
+    color: #44009c;
+    position: absolute;
+    left: 5px;  
+    transition: 0.7s;  
+}
+.input-container .label.on {
+    font-size: 13pt;
+    margin-top: -50px;
+}
+
+.input-container input {
+    padding: 5px;
+    font-size: 14pt;
+    outline: 0;
+    border: 0;
+    border-bottom: 2px solid #44009c;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width: fit-content;
+    margin: auto;
+    margin-top: 25vh;
+    padding: 10px;
+    border-radius: 10px;
+
+    background: #fff;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
+}
+

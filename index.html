@@ -1,24 +1,31 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <form>
-        <h1>Login</h1>
-        <label class="lab l1" for="user">Username</label>
-        <input type="text" id="user" required>
-        <label class="lab l2" for="pass">Password</label>
-        <input type="password" id="pass" required>
-        <button type="submit">Login</button>
-    </form>
+    <div class="container">
+        <img src="/icons/login.png" alt="Login Image">
+        <h1>Member Login</h1>
+        <form>
+            <div class="input-container">
+                <label for="username" class="label" >Username</label>
+                <input type="text" id="username" >
+            </div>
 
-    <script src="main.js"></script>
+            <div class="input-container">
+                <label for="password" class="label" >Password</label>
+                <input type="password" id="password">
+            </div> 
+
+            <button id="button">Login</button>
+        </form>
+    </div>
+    
+    <script src="/main.js"></script>
 </body>
-
 </html>
