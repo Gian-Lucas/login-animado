@@ -63,10 +63,10 @@ button:hover {
     color: #44009c;
     position: absolute;
     left: 5px;  
-    transition: 0.7s;  
+    transition: 0.4s;  
 }
 .input-container .label.on {
-    font-size: 13pt;
+    font-size: 12pt;
     margin-top: -55px;
 }
 
