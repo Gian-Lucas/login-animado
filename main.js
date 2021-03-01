@@ -45,7 +45,10 @@ function verifyFields(...fields) {
 
     fields.forEach(field => {
         if (field.value.trim() === '') {
+            field.value = '';
             isValid = false;
+        } else {
+            field.value = field.value.trim();
         }
     });
 

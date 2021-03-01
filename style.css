@@ -6,7 +6,7 @@
 
 body {
     background: #eee;
-    font-family: sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 img {
@@ -30,6 +30,7 @@ h1 {
 }
 
 button {
+    font-family: 'Noto Sans JP', sans-serif;
     cursor: pointer;
     transition: 0.3s;
     border: 0;
@@ -66,7 +67,7 @@ button:hover {
 }
 .input-container .label.on {
     font-size: 13pt;
-    margin-top: -50px;
+    margin-top: -55px;
 }
 
 .input-container input {
